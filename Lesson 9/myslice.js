@@ -20,11 +20,3 @@ function mySlice(array = [], start = 0, end = array.length) {
     }
     return slicedArray;
 }
-
-let arr = [1, 2, 3, 4, 5, 6, 'это массив', [2, 8]];
-a = mySlice();
-b = mySlice(arr, 2, -7);
-c = mySlice(arr, 5, 8);
-d = mySlice(arr, -8, 9);
-e = mySlice(arr, 7, 8);
-console.log(`a = ${a}; b = ${b}; c = ${c}; d = ${d}; e = ${e}`);
